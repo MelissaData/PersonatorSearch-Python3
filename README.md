@@ -42,8 +42,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/PersonatorSearch-Python3
-$ cd PersonatorSearch-Python3
+git clone https://github.com/MelissaData/PersonatorSearch-Python3
+cd PersonatorSearch-Python3
 ```
 
 ## Windows
@@ -87,15 +87,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\PersonatorSearchPython3.ps1
+	.\PersonatorSearchPython3.ps1
 	```
 
 - Command Line 
 
 	You can pass a full name, address line 1, city, state, postal code, and a license string into `-fullname`, `-addressline1`, `-city`, `-state`, `-postal`, and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ .\PersonatorSearchPython3.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688" 
-    $ .\PersonatorSearchPython3.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688" -license "<your_license_string>"
+    .\PersonatorSearchPython3.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688" 
+    .\PersonatorSearchPython3.ps1 -fullname "Melissa Data" -addressline1 "22382 Avenida Empresa" -city "Rancho Santa Margarita" -state "CA" -postal "92688" -license "<your_license_string>"
     ```
 	
 This is the expected output from a successful setup for interactive mode:
@@ -150,15 +150,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./PersonatorSearchPython3.sh
+	./PersonatorSearchPython3.sh
 	```
 
 - Command Line 
 
 	You can pass a full name, address line 1, city, state, postal code, and license string into `--fullname`, `--addressline1`, `--city`, `--state`, `--postal`, and `--license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ ./PersonatorSearchPython3.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688"
-    $ ./PersonatorSearchPython3.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688" --license "<your_license_string>"
+    ./PersonatorSearchPython3.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688"
+    ./PersonatorSearchPython3.sh --fullname "Melissa Data" --addressline1 "22382 Avenida Empresa" --city "Rancho Santa Margarita" --state "CA" --postal "92688" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
